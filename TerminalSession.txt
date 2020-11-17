@@ -1,1 +1,37 @@
+ pwd
+/home/runner/command-line-basics-assignment-matthewm588
+ mkdir LinuxExercise
+ ls
+LinuxExercise  README.md  TerminalSession.txt
+ cd LinuxExercise
+ touch myfile.txt
+ echo this is my new file >> myfile.txt
+ cat myfile.txt
+this is my new file
+ cp myfile.txt myfile_copy.txt
+ ls
+myfile_copy.txt  myfile.txt
+ mv myfile_copy.txt myfile2.txt
+ mv myfile2.txt ..
+ cd ..
+ ls
+LinuxExercise  myfile2.txt  README.md  TerminalSession.txt
+ cd LinuxExercise
+ rm -r myfile.txt
+ cd ..
+ rm -r LinuxExercise
+ ls
+myfile2.txt  README.md  TerminalSession.txt
+ 
+
+
+
+
+
+
+
+
+
+
+
 
